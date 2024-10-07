@@ -92,7 +92,11 @@ public class Homepage {
 	public WebElement errormsg1() {
 		return errormsg1;
 	}
-	
+	@FindBy(xpath="//label[text()='Invalid User']")
+	private WebElement errormsg2;
+	public WebElement errormsg2() {
+		return errormsg2;
+	}
 	
 	
 	

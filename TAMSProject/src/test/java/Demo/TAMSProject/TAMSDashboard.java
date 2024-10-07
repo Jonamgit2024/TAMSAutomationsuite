@@ -86,6 +86,7 @@ public class TAMSDashboard {
 		prop.load(fis);
 		TAMSDshboard tmdb = new TAMSDshboard(driver);
 		Assert.assertEquals(driver.getCurrentUrl(),prop.getProperty("TAMSDashboardURL") );
+		
 		//card-blocks verification
 		Assert.assertTrue(tmdb.dashboardcardblock1header().getText().contains(prop.getProperty("dashboardcardblock1header")));
 		Reporter.log("Card Block 1 is verified with :"+tmdb.dashboardcardblock1header().getText());
@@ -107,12 +108,14 @@ public class TAMSDashboard {
 		//legend-text verification
 		Assert.assertEquals(prop.getProperty("dashboardLegendText"), tmdb.legendtext().getText());
 		Reporter.log("Dash Board Legend Text is verified with :"+tmdb.legendtext().getText());
+		
 		//Agent, Airlines, Data - range visibility and its inputs verification
 		Assert.assertTrue(tmdb.SelectbarfollowingAgent().isDisplayed());
 		Reporter.log("Select Bar presence following Agent text is verified" );
 		Assert.assertTrue(tmdb.SelectbarfollowingAirlines().isDisplayed());
 		Reporter.log("Select Bar presence following Airlines text is verified" );
 		Assert.assertTrue(tmdb.DateRangeText().isDisplayed());
+		
 		//Data-range input and text verification
 		Reporter.log("Presence of Date Range text is verified" );
 		Assert.assertTrue(tmdb.DateRangeInput().isDisplayed());
@@ -276,6 +279,8 @@ public class TAMSDashboard {
 		Assert.assertEquals(tmdb.FlexboxHeader().getText(),prop.getProperty("Flexboxtitle4"));
 		Reporter.log("Expected : "+tmdb.FlexboxHeader().getText()+" Actual : "+prop.getProperty("Flexboxtitle4"));	
 		tmdb.Flexbox_close().click();
+		tmdb.paymentdone_count().click();
+		Paymentstableverification(driver);
 		
 		//Clicking PendingPayments cardblock
 		tmdb.pendingpayment_count().click();
@@ -283,6 +288,8 @@ public class TAMSDashboard {
 		Assert.assertEquals(tmdb.FlexboxHeader().getText(),prop.getProperty("Flexboxtitle5"));
 		Reporter.log("Expected : "+tmdb.FlexboxHeader().getText()+" Actual : "+prop.getProperty("Flexboxtitle5"));	
 		tmdb.Flexbox_close().click();
+		tmdb.pendingpayment_count().click();
+		Paymentstableverification(driver);
 	}
 	
 	public static void Dockettableverification(WebDriver driver) throws Exception {
@@ -315,6 +322,8 @@ public class TAMSDashboard {
 		Reporter.log("--  Dockets Table Header1 is : "+tmdb.tableheaders().get(6).getText()+" Expected is : "+prop.getProperty("DocketFlextableheader6"));
 		Assert.assertEquals(tmdb.tableheaders().get(7).getText(),prop.getProperty("DocketFlextableheader7"));
 		Reporter.log("--  Dockets Table Header1 is : "+tmdb.tableheaders().get(7).getText()+" Expected is : "+prop.getProperty("DocketFlextableheader7"));
+		Assert.assertEquals(tmdb.tableheaders().get(8).getText(),prop.getProperty("DocketFlextableheader8"));
+		Reporter.log("--  Dockets Table Header1 is : "+tmdb.tableheaders().get(8).getText()+" Expected is : "+prop.getProperty("DocketFlextableheader8"));
 		pagenavigatebuttons(driver);
 		tmdb.Flexbox_close().click();
 	}
@@ -366,6 +375,32 @@ public class TAMSDashboard {
 		tmdb.Flexbox_close().click();
 		
 	}
+	public static void Paymentstableverification(WebDriver driver) throws Exception {
+		TAMSDshboard tmdb = new TAMSDshboard(driver);
+		Properties prop = new Properties();
+		FileInputStream fis = new FileInputStream("data.properties");
+		prop.load(fis);
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+		//Payment Table Verification
+		wait.until(ExpectedConditions.visibilityOf(tmdb.FlexboxHeader()));
+		Assert.assertEquals(tmdb.tableheaders().get(0).getText(),prop.getProperty("PaymentsFlextableheader0"));
+		Reporter.log("--  Payment Table Header1 is : "+tmdb.tableheaders().get(0).getText()+" Expected is : "+prop.getProperty("PaymentsFlextableheader0"));
+		Assert.assertEquals(tmdb.tableheaders().get(1).getText(),prop.getProperty("PaymentsFlextableheader1"));
+		Reporter.log("--  Payment Table Header1 is : "+tmdb.tableheaders().get(1).getText()+" Expected is : "+prop.getProperty("PaymentsFlextableheader1"));
+		Assert.assertEquals(tmdb.tableheaders().get(2).getText(),prop.getProperty("PaymentsFlextableheader2"));
+		Reporter.log("--  Payment Table Header1 is : "+tmdb.tableheaders().get(2).getText()+" Expected is : "+prop.getProperty("PaymentsFlextableheader2"));
+		Assert.assertEquals(tmdb.tableheaders().get(3).getText(),prop.getProperty("PaymentsFlextableheader3"));
+		Reporter.log("--  Payment Table Header1 is : "+tmdb.tableheaders().get(3).getText()+" Expected is : "+prop.getProperty("PaymentsFlextableheader3"));
+		Assert.assertEquals(tmdb.tableheaders().get(4).getText(),prop.getProperty("PaymentsFlextableheader4"));
+		Reporter.log("--  Payment Table Header1 is : "+tmdb.tableheaders().get(4).getText()+" Expected is : "+prop.getProperty("PaymentsFlextableheader4"));
+		pagenavigatebuttons(driver);
+		tmdb.Flexbox_close().click();	
+	}
+	
+	
+	
+	
+	
 	public static void pagenavigatebuttons(WebDriver driver) throws Exception {
 		TAMSDshboard tmdb = new TAMSDshboard(driver);
 		Properties prop = new Properties();

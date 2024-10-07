@@ -110,14 +110,15 @@ public class Trail {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Assert.assertTrue(hmpg.errormsg1().isDisplayed());
 		hmpg.loginclsbtn().click();
-		/*
-		 * // Wrong case3 - Correct User name, Wrong Password hmpg.loginlnk().click();
-		 * hmpg.input1().sendKeys(prop.getProperty("correctusername1"));
-		 * hmpg.input2().sendKeys(prop.getProperty("password2"));
-		 * hmpg.loginbtn().click(); driver.manage().timeouts().implicitlyWait(20,
-		 * TimeUnit.SECONDS); Assert.assertTrue(hmpg.errormsg1().isDisplayed());
-		 * hmpg.loginclsbtn().click();
-		 */
+		// Wrong case3 - Correct User name, Wrong Password 
+		hmpg.loginlnk().click();
+		hmpg.input1().sendKeys(prop.getProperty("correctusername1"));
+		hmpg.input2().sendKeys(prop.getProperty("password2"));
+		hmpg.loginbtn().click(); 
+		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS); 
+		Assert.assertTrue(hmpg.errormsg2().isDisplayed());
+		hmpg.loginclsbtn().click();
+		 
 		// Correct case
 		hmpg.loginlnk().click();
 		hmpg.input1().sendKeys(prop.getProperty("correctusername1"));

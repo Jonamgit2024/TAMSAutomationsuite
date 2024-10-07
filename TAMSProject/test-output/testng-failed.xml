@@ -5,7 +5,12 @@
     <classes>
       <class name="Demo.TAMSProject.TAMSDashboard">
         <methods>
+          <include name="zoomout75"/>
+          <include name="login"/>
+          <include name="dashboardvalidation"/>
           <include name="cardblockswithSelectionsValidation"/>
+          <include name="Agent_Airline_Daterange_SelectionsValidation"/>
+          <include name="weblaunch"/>
         </methods>
       </class> <!-- Demo.TAMSProject.TAMSDashboard -->
     </classes>
