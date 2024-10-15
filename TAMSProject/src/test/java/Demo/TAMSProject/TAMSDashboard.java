@@ -80,7 +80,7 @@ public class TAMSDashboard {
 	
 	@Test(priority =4)
 	public void dashboardvalidation() throws Exception {
-		Reporter.log( "Message", true );
+		Reporter.log( "DashBoard Validation Started", true );
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream("data.properties");
 		prop.load(fis);
@@ -185,14 +185,14 @@ public class TAMSDashboard {
 		tmdb.ShowResultsbutton().click();
 		Thread.sleep(5000);//Thread sleep is used for the user interface to refresh and check
 		String Current_dockets = tmdb.Dockets_count().getText();
-		Reporter.log("The Default Dockets are"+Default_dockets+"Dockets count after the selections is "+Current_dockets);
+		Reporter.log("The Default Dockets are "+Default_dockets+" Dockets count after the selections is "+Current_dockets);
 		//Assuming there will be a change in Dockets count with selection
 		SoftAssert sftasrt = new SoftAssert();
 		sftasrt.assertNotEquals(Default_dockets, Current_dockets,"In case of both Agent and Airline is kept --select-- the asserion might fail");
 		tmdb.Resetbutton().click();
 		Thread.sleep(5000);//Thread sleep is used for the user interface to check
 		String Current_docketsreset = tmdb.Dockets_count().getText();
-		Reporter.log("The Default Dockets are"+Default_dockets+"Dockets count after the reset is "+Current_docketsreset);
+		Reporter.log("The Default Dockets are "+Default_dockets+"Dockets count after the reset is "+Current_docketsreset);
 		Assert.assertEquals(Default_dockets, Current_docketsreset);
 		Thread.sleep(5000);//Thread sleep is used for the user interface to refresh and check
 	}
@@ -205,6 +205,7 @@ public class TAMSDashboard {
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream("data.properties");
 		prop.load(fis);
+		TAMSHome thmp = new TAMSHome(driver);
 		
 		//Agent_name Selection
 		String Agent_name1=null;
@@ -290,6 +291,15 @@ public class TAMSDashboard {
 		tmdb.Flexbox_close().click();
 		tmdb.pendingpayment_count().click();
 		Paymentstableverification(driver);
+		
+		//logging out of the page
+		thmp.logout().click();
+	
+	}
+	
+	@Test(priority=7)
+	public void closure() {
+		driver.quit();
 	}
 	
 	public static void Dockettableverification(WebDriver driver) throws Exception {
@@ -412,7 +422,7 @@ public class TAMSDashboard {
 		WebElement nextbutton =tmdb.Navigationnextbutton();
 		wait.until(ExpectedConditions.visibilityOf(tmdb.pagenavigatebuttons().get(1)));
 		int noofpages=tmdb.pagenavigatebuttons().size();
-		System.out.println("No of pages is : "+noofpages);
+		Reporter.log("--------- No of pages is : "+noofpages);
 		 //Throwing Stale Element Exception
 		SoftAssert sftasrt = new SoftAssert(); 
 		//for(int i=0;i<noofpages-1;i++) {tmdb.pagenavigatebuttons().get(i+1).click();} 

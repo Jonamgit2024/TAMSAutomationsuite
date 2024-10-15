@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Message]]>
@@ -14,385 +14,181 @@
       <![CDATA[Login is succesful and User entered the TAMS Dashobaord]]>
     </line>
     <line>
-      <![CDATA[Message]]>
+      <![CDATA[TAMSDairyOverview Validation]]>
     </line>
     <line>
-      <![CDATA[Card Block 1 is verified with :Dockets]]>
+      <![CDATA[Month:10]]>
     </line>
     <line>
-      <![CDATA[Card Block 2 is verified with :Contacts]]>
+      <![CDATA[Month:October]]>
     </line>
     <line>
-      <![CDATA[Card Block 3 is verified with :Passengers]]>
+      <![CDATA[This Year is :2024]]>
     </line>
     <line>
-      <![CDATA[Card Block 4 is verified with :Cost Price]]>
+      <![CDATA[October 2024]]>
     </line>
     <line>
-      <![CDATA[Card Block 5 is verified with :Sale Price]]>
+      <![CDATA[This Year is :2024]]>
     </line>
     <line>
-      <![CDATA[Card Block 6 is verified with :Commission]]>
+      <![CDATA[-------------Date is above 10th-So, No correction is required------------------]]>
     </line>
     <line>
-      <![CDATA[Card Block 7 is verified with :Payments Done]]>
+      <![CDATA[Date:15]]>
     </line>
     <line>
-      <![CDATA[Card Block 8 is verified with :Pending Payments]]>
+      <![CDATA[October 15, 2024]]>
     </line>
     <line>
-      <![CDATA[Dash Board Legend Text is verified with :Refine By]]>
+      <![CDATA[The Monthdisplay expected is :October 2024]]>
     </line>
     <line>
-      <![CDATA[Select Bar presence following Agent text is verified]]>
+      <![CDATA[The Daydisplay expected is :October 15, 2024]]>
     </line>
     <line>
-      <![CDATA[Select Bar presence following Airlines text is verified]]>
+      <![CDATA[The current day of the week is : Tuesday]]>
     </line>
     <line>
-      <![CDATA[Presence of Date Range text is verified]]>
+      <![CDATA[Month view Validation]]>
     </line>
     <line>
-      <![CDATA[Presence of Input following the Date Range text is verified]]>
+      <![CDATA[---First Tab of the Month view is : Sun Expected isSun]]>
     </line>
     <line>
-      <![CDATA[The Base Structure is verified]]>
+      <![CDATA[---First Tab of the Month view is : Mon Expected isMon]]>
     </line>
     <line>
-      <![CDATA[Message]]>
+      <![CDATA[---First Tab of the Month view is : Tue Expected isTue]]>
     </line>
     <line>
-      <![CDATA[Agent selected is :Super  Administrator space check]]>
+      <![CDATA[---First Tab of the Month view is : Wed Expected isWed]]>
     </line>
     <line>
-      <![CDATA[The Default Dockets are21,205Dockets count after the selections is 0]]>
+      <![CDATA[---First Tab of the Month view is : Thu Expected isThu]]>
     </line>
     <line>
-      <![CDATA[The Default Dockets are21,205Dockets count after the reset is 21,205]]>
+      <![CDATA[---First Tab of the Month view is : Fri Expected isFri]]>
     </line>
     <line>
-      <![CDATA[Message]]>
+      <![CDATA[---First Tab of the Month view is : Sat Expected isSat]]>
     </line>
     <line>
-      <![CDATA[Card Blocks verification started]]>
+      <![CDATA[Text in DATE Header is : October 2024 Expected is : October 2024]]>
     </line>
     <line>
-      <![CDATA[Agent selected is :Super  Administrator space check]]>
+      <![CDATA[Text in Table Header is : Tuesday Expected is : Tuesday]]>
     </line>
     <line>
-      <![CDATA[Expected : Docket Actual : Docket]]>
+      <![CDATA[Text in DATE Header is : October 15, 2024 Expected is : October 15, 2024]]>
     </line>
     <line>
-      <![CDATA[--  Dockets Table Header1 is : PNR # Expected is : PNR #]]>
+      <![CDATA[Week view Validation]]>
     </line>
     <line>
-      <![CDATA[--  Dockets Table Header1 is : Contact Name Expected is : Contact Name]]>
+      <![CDATA[---First Tab of week view is : Sun 10/13 Verified Partially with :Sun]]>
     </line>
     <line>
-      <![CDATA[--  Dockets TablesearchPlaceHolder is : Contact Name Expected is : Contact Name]]>
+      <![CDATA[---First Tab of week view is : Mon 10/14 Verified Partially with :Mon]]>
     </line>
     <line>
-      <![CDATA[--  Dockets Table Header1 is : Created On Expected is : Created On]]>
+      <![CDATA[---First Tab of week view is : Tue 10/15 Verified Partially with :Tue]]>
     </line>
     <line>
-      <![CDATA[--  Dockets Table Header1 is : Airline Expected is : Airline]]>
+      <![CDATA[---First Tab of week view is : Wed 10/16 Verified Partially with :Wed]]>
     </line>
     <line>
-      <![CDATA[--  Dockets Table Header1 is : Agent Expected is : Agent]]>
+      <![CDATA[---First Tab of week view is : Thu 10/17 Verified Partially with :Thu]]>
     </line>
     <line>
-      <![CDATA[--  Dockets Table Header1 is : Sales Price ($) Expected is : Sales Price ($)]]>
+      <![CDATA[---First Tab of week view is : Fri 10/18 Verified Partially with :Fri]]>
     </line>
     <line>
-      <![CDATA[--  Dockets Table Header1 is : Cost Price ($) Expected is : Cost Price ($)]]>
+      <![CDATA[---First Tab of week view is : Sat 10/19 Verified Partially with :Sat]]>
     </line>
     <line>
-      <![CDATA[--  Dockets Table Header1 is : Commision Price($) Expected is : Commision Price($)]]>
+      <![CDATA[Text in DATE Header is : Oct 13 – 19, 2024 Is Partially Verified with Year number : 2024]]>
     </line>
     <line>
-      <![CDATA[--  Dockets Table Header1 is : Payment Status Expected is : Payment Status]]>
+      <![CDATA[Text in DATE Header is : October 14, 2024 Is not Same as October 15, 2024]]>
     </line>
     <line>
-      <![CDATA[------  Next button is not enabled by default showing Last page results]]>
+      <![CDATA[Text in Table Header is : Monday Expected is : Monday]]>
     </line>
     <line>
-      <![CDATA[------  Navigation Next is Verified]]>
+      <![CDATA[Text in DATE Header is : October 15, 2024 Is Same as October 15, 2024 As it comes back to current day]]>
     </line>
     <line>
-      <![CDATA[------  Previous button is not enabled by default showing 1st page results]]>
+      <![CDATA[Text in DATE Header is : October 16, 2024 Is not Same as October 15, 2024]]>
     </line>
     <line>
-      <![CDATA[------  Navigation Previous is Verified]]>
+      <![CDATA[Text in Table Header is : Wednesday Expected is : Wednesday]]>
     </line>
     <line>
-      <![CDATA[Expected : Contacts Actual : Contacts]]>
+      <![CDATA[Text in Table Header is : September 2024 Expected is : September]]>
     </line>
     <line>
-      <![CDATA[--  Contacts Table Header1 is : PNR Expected is : PNR]]>
+      <![CDATA[Text in DATE Header is : October 2024 Expected is : October 2024 As it Comes back to the current Month]]>
     </line>
     <line>
-      <![CDATA[--  Contacts Table Header1 is : Contact Name Expected is : Contact Name]]>
+      <![CDATA[Text in Table Header is : November 2024 Expected is : November]]>
     </line>
     <line>
-      <![CDATA[--  Contacts Table Header1 is : Email Expected is : Email]]>
+      <![CDATA[TAMSDairyOverview Validation]]>
     </line>
     <line>
-      <![CDATA[--  Contacts Table Header1 is : Mobile Expected is : Mobile]]>
+      <![CDATA[Given Date is selected and clicked upon :12]]>
     </line>
     <line>
-      <![CDATA[--  Contacts Table Header1 is : State Expected is : State]]>
+      <![CDATA[The Header of the calender is verified to be : January 12, 2022 Selected date is : January 12, 2022]]>
     </line>
     <line>
-      <![CDATA[--  Contacts Table Header1 is : Country Expected is : Country]]>
+      <![CDATA[Selction of given Month and Year is Done : Jan 2022]]>
     </line>
     <line>
-      <![CDATA[------  Next button is not enabled by default showing Last page results]]>
+      <![CDATA[The Header of the calender is verified to be : January 2022]]>
     </line>
     <line>
-      <![CDATA[------  Navigation Next is Verified]]>
+      <![CDATA[The Today button is Clicked]]>
     </line>
     <line>
-      <![CDATA[------  Previous button is not enabled by default showing 1st page results]]>
+      <![CDATA[Month:10]]>
     </line>
     <line>
-      <![CDATA[------  Navigation Previous is Verified]]>
+      <![CDATA[Month:October]]>
     </line>
     <line>
-      <![CDATA[Expected : Passengers Actual : Passengers]]>
+      <![CDATA[This Year is :2024]]>
     </line>
     <line>
-      <![CDATA[--  Passenger Table Header1 is : PNR Expected is : PNR]]>
+      <![CDATA[October 2024]]>
     </line>
     <line>
-      <![CDATA[--  Passengers Table Header1 is : Passenger Name Expected is : Passenger Name]]>
+      <![CDATA[Month:10]]>
     </line>
     <line>
-      <![CDATA[--  Passengers Table Header1 is : Date of Birth Expected is : Date of Birth]]>
+      <![CDATA[Month:October]]>
     </line>
     <line>
-      <![CDATA[--  Passengers Table Header1 is : Email Expected is : Email]]>
+      <![CDATA[This Year is :2024]]>
     </line>
     <line>
-      <![CDATA[--  Passengers Table Header1 is : Mobile Expected is : Mobile]]>
+      <![CDATA[October 2024]]>
     </line>
     <line>
-      <![CDATA[------  Next button is not enabled by default showing Last page results]]>
-    </line>
-    <line>
-      <![CDATA[------  Navigation Next is Verified]]>
-    </line>
-    <line>
-      <![CDATA[------  Previous button is not enabled by default showing 1st page results]]>
-    </line>
-    <line>
-      <![CDATA[------  Navigation Previous is Verified]]>
-    </line>
-    <line>
-      <![CDATA[Expected : Docket Actual : Docket]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : PNR # Expected is : PNR #]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Contact Name Expected is : Contact Name]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets TablesearchPlaceHolder is : Contact Name Expected is : Contact Name]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Created On Expected is : Created On]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Airline Expected is : Airline]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Agent Expected is : Agent]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Sales Price ($) Expected is : Sales Price ($)]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Cost Price ($) Expected is : Cost Price ($)]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Commision Price($) Expected is : Commision Price($)]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Payment Status Expected is : Payment Status]]>
-    </line>
-    <line>
-      <![CDATA[------  Next button is not enabled by default showing Last page results]]>
-    </line>
-    <line>
-      <![CDATA[------  Navigation Next is Verified]]>
-    </line>
-    <line>
-      <![CDATA[------  Previous button is not enabled by default showing 1st page results]]>
-    </line>
-    <line>
-      <![CDATA[------  Navigation Previous is Verified]]>
-    </line>
-    <line>
-      <![CDATA[Expected : Docket Actual : Docket]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : PNR # Expected is : PNR #]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Contact Name Expected is : Contact Name]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets TablesearchPlaceHolder is : Contact Name Expected is : Contact Name]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Created On Expected is : Created On]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Airline Expected is : Airline]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Agent Expected is : Agent]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Sales Price ($) Expected is : Sales Price ($)]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Cost Price ($) Expected is : Cost Price ($)]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Commision Price($) Expected is : Commision Price($)]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Payment Status Expected is : Payment Status]]>
-    </line>
-    <line>
-      <![CDATA[------  Next button is not enabled by default showing Last page results]]>
-    </line>
-    <line>
-      <![CDATA[------  Navigation Next is Verified]]>
-    </line>
-    <line>
-      <![CDATA[------  Previous button is not enabled by default showing 1st page results]]>
-    </line>
-    <line>
-      <![CDATA[------  Navigation Previous is Verified]]>
-    </line>
-    <line>
-      <![CDATA[Expected : Docket Actual : Docket]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : PNR # Expected is : PNR #]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Contact Name Expected is : Contact Name]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets TablesearchPlaceHolder is : Contact Name Expected is : Contact Name]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Created On Expected is : Created On]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Airline Expected is : Airline]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Agent Expected is : Agent]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Sales Price ($) Expected is : Sales Price ($)]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Cost Price ($) Expected is : Cost Price ($)]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Commision Price($) Expected is : Commision Price($)]]>
-    </line>
-    <line>
-      <![CDATA[--  Dockets Table Header1 is : Payment Status Expected is : Payment Status]]>
-    </line>
-    <line>
-      <![CDATA[------  Next button is not enabled by default showing Last page results]]>
-    </line>
-    <line>
-      <![CDATA[------  Navigation Next is Verified]]>
-    </line>
-    <line>
-      <![CDATA[------  Previous button is not enabled by default showing 1st page results]]>
-    </line>
-    <line>
-      <![CDATA[------  Navigation Previous is Verified]]>
-    </line>
-    <line>
-      <![CDATA[Expected : Payments Done Actual : Payments Done]]>
-    </line>
-    <line>
-      <![CDATA[--  Payment Table Header1 is : PNR Expected is : PNR]]>
-    </line>
-    <line>
-      <![CDATA[--  Payment Table Header1 is : Contact Name Expected is : Contact Name]]>
-    </line>
-    <line>
-      <![CDATA[--  Payment Table Header1 is : Payment Method Expected is : Payment Method]]>
-    </line>
-    <line>
-      <![CDATA[--  Payment Table Header1 is : Payment Status Expected is : Payment Status]]>
-    </line>
-    <line>
-      <![CDATA[--  Payment Table Header1 is : Pay Amount Expected is : Pay Amount]]>
-    </line>
-    <line>
-      <![CDATA[------  Next button is not enabled by default showing Last page results]]>
-    </line>
-    <line>
-      <![CDATA[------  Navigation Next is Verified]]>
-    </line>
-    <line>
-      <![CDATA[------  Previous button is not enabled by default showing 1st page results]]>
-    </line>
-    <line>
-      <![CDATA[------  Navigation Previous is Verified]]>
-    </line>
-    <line>
-      <![CDATA[Expected : Pending Payments Actual : Pending Payments]]>
-    </line>
-    <line>
-      <![CDATA[--  Payment Table Header1 is : PNR Expected is : PNR]]>
-    </line>
-    <line>
-      <![CDATA[--  Payment Table Header1 is : Contact Name Expected is : Contact Name]]>
-    </line>
-    <line>
-      <![CDATA[--  Payment Table Header1 is : Payment Method Expected is : Payment Method]]>
-    </line>
-    <line>
-      <![CDATA[--  Payment Table Header1 is : Payment Status Expected is : Payment Status]]>
-    </line>
-    <line>
-      <![CDATA[--  Payment Table Header1 is : Pay Amount Expected is : Pay Amount]]>
-    </line>
-    <line>
-      <![CDATA[------  Next button is not enabled by default showing Last page results]]>
-    </line>
-    <line>
-      <![CDATA[------  Navigation Next is Verified]]>
-    </line>
-    <line>
-      <![CDATA[------  Previous button is not enabled by default showing 1st page results]]>
-    </line>
-    <line>
-      <![CDATA[------  Navigation Previous is Verified]]>
+      <![CDATA[The Header of the Calender is verifed with current month --- current month is :October 2024 Header of the calender is :October 2024]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-10-07T23:51:30 IST" name="Default suite" finished-at="2024-10-07T23:54:09 IST" duration-ms="158912">
+  <suite started-at="2024-10-15T12:05:04 IST" name="Default suite" finished-at="2024-10-15T12:06:53 IST" duration-ms="108814">
     <groups>
       <group name="Login">
-        <method signature="TAMSDashboard.weblaunch()[pri:1, instance:Demo.TAMSProject.TAMSDashboard@368247b9]" name="weblaunch" class="Demo.TAMSProject.TAMSDashboard"/>
-        <method signature="TAMSDashboard.zoomout75()[pri:2, instance:Demo.TAMSProject.TAMSDashboard@368247b9]" name="zoomout75" class="Demo.TAMSProject.TAMSDashboard"/>
+        <method signature="TAMSDairy.weblaunch()[pri:1, instance:Demo.TAMSProject.TAMSDairy@738dc9b]" name="weblaunch" class="Demo.TAMSProject.TAMSDairy"/>
+        <method signature="TAMSDairy.zoomout75()[pri:2, instance:Demo.TAMSProject.TAMSDairy@738dc9b]" name="zoomout75" class="Demo.TAMSProject.TAMSDairy"/>
       </group> <!-- Login -->
     </groups>
-    <test started-at="2024-10-07T23:51:30 IST" name="Default test" finished-at="2024-10-07T23:54:09 IST" duration-ms="158912">
-      <class name="Demo.TAMSProject.TAMSDashboard">
-        <test-method signature="weblaunch()[pri:1, instance:Demo.TAMSProject.TAMSDashboard@368247b9]" started-at="2024-10-07T23:51:30 IST" name="weblaunch" finished-at="2024-10-07T23:51:41 IST" duration-ms="10973" status="PASS">
+    <test started-at="2024-10-15T12:05:04 IST" name="Default test" finished-at="2024-10-15T12:06:53 IST" duration-ms="108814">
+      <class name="Demo.TAMSProject.TAMSDairy">
+        <test-method signature="weblaunch()[pri:1, instance:Demo.TAMSProject.TAMSDairy@738dc9b]" started-at="2024-10-15T12:05:04 IST" name="weblaunch" finished-at="2024-10-15T12:05:41 IST" duration-ms="36797" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Message]]>
@@ -402,402 +198,194 @@
             </line>
           </reporter-output>
         </test-method> <!-- weblaunch -->
-        <test-method signature="zoomout75()[pri:2, instance:Demo.TAMSProject.TAMSDashboard@368247b9]" started-at="2024-10-07T23:51:42 IST" name="zoomout75" finished-at="2024-10-07T23:51:45 IST" duration-ms="3097" status="PASS">
+        <test-method signature="zoomout75()[pri:2, instance:Demo.TAMSProject.TAMSDairy@738dc9b]" started-at="2024-10-15T12:05:41 IST" name="zoomout75" finished-at="2024-10-15T12:05:42 IST" duration-ms="660" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[The Browser is zoomed out to 75% for entire website visibility]]>
             </line>
           </reporter-output>
         </test-method> <!-- zoomout75 -->
-        <test-method signature="login()[pri:3, instance:Demo.TAMSProject.TAMSDashboard@368247b9]" started-at="2024-10-07T23:51:45 IST" name="login" finished-at="2024-10-07T23:51:51 IST" duration-ms="6225" status="PASS">
+        <test-method signature="login()[pri:3, instance:Demo.TAMSProject.TAMSDairy@738dc9b]" started-at="2024-10-15T12:05:42 IST" name="login" finished-at="2024-10-15T12:06:19 IST" duration-ms="37906" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login is succesful and User entered the TAMS Dashobaord]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="dashboardvalidation()[pri:4, instance:Demo.TAMSProject.TAMSDashboard@368247b9]" started-at="2024-10-07T23:51:51 IST" name="dashboardvalidation" finished-at="2024-10-07T23:51:52 IST" duration-ms="1343" status="PASS">
+        <test-method signature="TAMSDairyOverview()[pri:4, instance:Demo.TAMSProject.TAMSDairy@738dc9b]" started-at="2024-10-15T12:06:19 IST" name="TAMSDairyOverview" finished-at="2024-10-15T12:06:31 IST" duration-ms="11202" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Message]]>
+              <![CDATA[TAMSDairyOverview Validation]]>
             </line>
             <line>
-              <![CDATA[Card Block 1 is verified with :Dockets]]>
+              <![CDATA[Month:10]]>
             </line>
             <line>
-              <![CDATA[Card Block 2 is verified with :Contacts]]>
+              <![CDATA[Month:October]]>
             </line>
             <line>
-              <![CDATA[Card Block 3 is verified with :Passengers]]>
+              <![CDATA[This Year is :2024]]>
             </line>
             <line>
-              <![CDATA[Card Block 4 is verified with :Cost Price]]>
+              <![CDATA[October 2024]]>
             </line>
             <line>
-              <![CDATA[Card Block 5 is verified with :Sale Price]]>
+              <![CDATA[This Year is :2024]]>
             </line>
             <line>
-              <![CDATA[Card Block 6 is verified with :Commission]]>
+              <![CDATA[-------------Date is above 10th-So, No correction is required------------------]]>
             </line>
             <line>
-              <![CDATA[Card Block 7 is verified with :Payments Done]]>
+              <![CDATA[Date:15]]>
             </line>
             <line>
-              <![CDATA[Card Block 8 is verified with :Pending Payments]]>
+              <![CDATA[October 15, 2024]]>
             </line>
             <line>
-              <![CDATA[Dash Board Legend Text is verified with :Refine By]]>
+              <![CDATA[The Monthdisplay expected is :October 2024]]>
             </line>
             <line>
-              <![CDATA[Select Bar presence following Agent text is verified]]>
+              <![CDATA[The Daydisplay expected is :October 15, 2024]]>
             </line>
             <line>
-              <![CDATA[Select Bar presence following Airlines text is verified]]>
+              <![CDATA[The current day of the week is : Tuesday]]>
             </line>
             <line>
-              <![CDATA[Presence of Date Range text is verified]]>
+              <![CDATA[Month view Validation]]>
             </line>
             <line>
-              <![CDATA[Presence of Input following the Date Range text is verified]]>
+              <![CDATA[---First Tab of the Month view is : Sun Expected isSun]]>
             </line>
             <line>
-              <![CDATA[The Base Structure is verified]]>
+              <![CDATA[---First Tab of the Month view is : Mon Expected isMon]]>
+            </line>
+            <line>
+              <![CDATA[---First Tab of the Month view is : Tue Expected isTue]]>
+            </line>
+            <line>
+              <![CDATA[---First Tab of the Month view is : Wed Expected isWed]]>
+            </line>
+            <line>
+              <![CDATA[---First Tab of the Month view is : Thu Expected isThu]]>
+            </line>
+            <line>
+              <![CDATA[---First Tab of the Month view is : Fri Expected isFri]]>
+            </line>
+            <line>
+              <![CDATA[---First Tab of the Month view is : Sat Expected isSat]]>
+            </line>
+            <line>
+              <![CDATA[Text in DATE Header is : October 2024 Expected is : October 2024]]>
+            </line>
+            <line>
+              <![CDATA[Text in Table Header is : Tuesday Expected is : Tuesday]]>
+            </line>
+            <line>
+              <![CDATA[Text in DATE Header is : October 15, 2024 Expected is : October 15, 2024]]>
+            </line>
+            <line>
+              <![CDATA[Week view Validation]]>
+            </line>
+            <line>
+              <![CDATA[---First Tab of week view is : Sun 10/13 Verified Partially with :Sun]]>
+            </line>
+            <line>
+              <![CDATA[---First Tab of week view is : Mon 10/14 Verified Partially with :Mon]]>
+            </line>
+            <line>
+              <![CDATA[---First Tab of week view is : Tue 10/15 Verified Partially with :Tue]]>
+            </line>
+            <line>
+              <![CDATA[---First Tab of week view is : Wed 10/16 Verified Partially with :Wed]]>
+            </line>
+            <line>
+              <![CDATA[---First Tab of week view is : Thu 10/17 Verified Partially with :Thu]]>
+            </line>
+            <line>
+              <![CDATA[---First Tab of week view is : Fri 10/18 Verified Partially with :Fri]]>
+            </line>
+            <line>
+              <![CDATA[---First Tab of week view is : Sat 10/19 Verified Partially with :Sat]]>
+            </line>
+            <line>
+              <![CDATA[Text in DATE Header is : Oct 13 – 19, 2024 Is Partially Verified with Year number : 2024]]>
+            </line>
+            <line>
+              <![CDATA[Text in DATE Header is : October 14, 2024 Is not Same as October 15, 2024]]>
+            </line>
+            <line>
+              <![CDATA[Text in Table Header is : Monday Expected is : Monday]]>
+            </line>
+            <line>
+              <![CDATA[Text in DATE Header is : October 15, 2024 Is Same as October 15, 2024 As it comes back to current day]]>
+            </line>
+            <line>
+              <![CDATA[Text in DATE Header is : October 16, 2024 Is not Same as October 15, 2024]]>
+            </line>
+            <line>
+              <![CDATA[Text in Table Header is : Wednesday Expected is : Wednesday]]>
+            </line>
+            <line>
+              <![CDATA[Text in Table Header is : September 2024 Expected is : September]]>
+            </line>
+            <line>
+              <![CDATA[Text in DATE Header is : October 2024 Expected is : October 2024 As it Comes back to the current Month]]>
+            </line>
+            <line>
+              <![CDATA[Text in Table Header is : November 2024 Expected is : November]]>
             </line>
           </reporter-output>
-        </test-method> <!-- dashboardvalidation -->
-        <test-method signature="Agent_Airline_Daterange_SelectionsValidation()[pri:5, instance:Demo.TAMSProject.TAMSDashboard@368247b9]" started-at="2024-10-07T23:51:52 IST" name="Agent_Airline_Daterange_SelectionsValidation" finished-at="2024-10-07T23:52:13 IST" duration-ms="20966" status="PASS">
+        </test-method> <!-- TAMSDairyOverview -->
+        <test-method signature="TAMSDairyDatepicking()[pri:5, instance:Demo.TAMSProject.TAMSDairy@738dc9b]" started-at="2024-10-15T12:06:31 IST" name="TAMSDairyDatepicking" finished-at="2024-10-15T12:06:53 IST" duration-ms="22171" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Message]]>
+              <![CDATA[TAMSDairyOverview Validation]]>
             </line>
             <line>
-              <![CDATA[Agent selected is :Super  Administrator space check]]>
+              <![CDATA[Given Date is selected and clicked upon :12]]>
             </line>
             <line>
-              <![CDATA[The Default Dockets are21,205Dockets count after the selections is 0]]>
+              <![CDATA[The Header of the calender is verified to be : January 12, 2022 Selected date is : January 12, 2022]]>
             </line>
             <line>
-              <![CDATA[The Default Dockets are21,205Dockets count after the reset is 21,205]]>
+              <![CDATA[Selction of given Month and Year is Done : Jan 2022]]>
+            </line>
+            <line>
+              <![CDATA[The Header of the calender is verified to be : January 2022]]>
+            </line>
+            <line>
+              <![CDATA[The Today button is Clicked]]>
+            </line>
+            <line>
+              <![CDATA[Month:10]]>
+            </line>
+            <line>
+              <![CDATA[Month:October]]>
+            </line>
+            <line>
+              <![CDATA[This Year is :2024]]>
+            </line>
+            <line>
+              <![CDATA[October 2024]]>
+            </line>
+            <line>
+              <![CDATA[Month:10]]>
+            </line>
+            <line>
+              <![CDATA[Month:October]]>
+            </line>
+            <line>
+              <![CDATA[This Year is :2024]]>
+            </line>
+            <line>
+              <![CDATA[October 2024]]>
+            </line>
+            <line>
+              <![CDATA[The Header of the Calender is verifed with current month --- current month is :October 2024 Header of the calender is :October 2024]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Agent_Airline_Daterange_SelectionsValidation -->
-        <test-method signature="cardblockswithSelectionsValidation()[pri:6, instance:Demo.TAMSProject.TAMSDashboard@368247b9]" started-at="2024-10-07T23:52:13 IST" name="cardblockswithSelectionsValidation" finished-at="2024-10-07T23:54:09 IST" duration-ms="116078" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Message]]>
-            </line>
-            <line>
-              <![CDATA[Card Blocks verification started]]>
-            </line>
-            <line>
-              <![CDATA[Agent selected is :Super  Administrator space check]]>
-            </line>
-            <line>
-              <![CDATA[Expected : Docket Actual : Docket]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : PNR # Expected is : PNR #]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Contact Name Expected is : Contact Name]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets TablesearchPlaceHolder is : Contact Name Expected is : Contact Name]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Created On Expected is : Created On]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Airline Expected is : Airline]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Agent Expected is : Agent]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Sales Price ($) Expected is : Sales Price ($)]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Cost Price ($) Expected is : Cost Price ($)]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Commision Price($) Expected is : Commision Price($)]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Payment Status Expected is : Payment Status]]>
-            </line>
-            <line>
-              <![CDATA[------  Next button is not enabled by default showing Last page results]]>
-            </line>
-            <line>
-              <![CDATA[------  Navigation Next is Verified]]>
-            </line>
-            <line>
-              <![CDATA[------  Previous button is not enabled by default showing 1st page results]]>
-            </line>
-            <line>
-              <![CDATA[------  Navigation Previous is Verified]]>
-            </line>
-            <line>
-              <![CDATA[Expected : Contacts Actual : Contacts]]>
-            </line>
-            <line>
-              <![CDATA[--  Contacts Table Header1 is : PNR Expected is : PNR]]>
-            </line>
-            <line>
-              <![CDATA[--  Contacts Table Header1 is : Contact Name Expected is : Contact Name]]>
-            </line>
-            <line>
-              <![CDATA[--  Contacts Table Header1 is : Email Expected is : Email]]>
-            </line>
-            <line>
-              <![CDATA[--  Contacts Table Header1 is : Mobile Expected is : Mobile]]>
-            </line>
-            <line>
-              <![CDATA[--  Contacts Table Header1 is : State Expected is : State]]>
-            </line>
-            <line>
-              <![CDATA[--  Contacts Table Header1 is : Country Expected is : Country]]>
-            </line>
-            <line>
-              <![CDATA[------  Next button is not enabled by default showing Last page results]]>
-            </line>
-            <line>
-              <![CDATA[------  Navigation Next is Verified]]>
-            </line>
-            <line>
-              <![CDATA[------  Previous button is not enabled by default showing 1st page results]]>
-            </line>
-            <line>
-              <![CDATA[------  Navigation Previous is Verified]]>
-            </line>
-            <line>
-              <![CDATA[Expected : Passengers Actual : Passengers]]>
-            </line>
-            <line>
-              <![CDATA[--  Passenger Table Header1 is : PNR Expected is : PNR]]>
-            </line>
-            <line>
-              <![CDATA[--  Passengers Table Header1 is : Passenger Name Expected is : Passenger Name]]>
-            </line>
-            <line>
-              <![CDATA[--  Passengers Table Header1 is : Date of Birth Expected is : Date of Birth]]>
-            </line>
-            <line>
-              <![CDATA[--  Passengers Table Header1 is : Email Expected is : Email]]>
-            </line>
-            <line>
-              <![CDATA[--  Passengers Table Header1 is : Mobile Expected is : Mobile]]>
-            </line>
-            <line>
-              <![CDATA[------  Next button is not enabled by default showing Last page results]]>
-            </line>
-            <line>
-              <![CDATA[------  Navigation Next is Verified]]>
-            </line>
-            <line>
-              <![CDATA[------  Previous button is not enabled by default showing 1st page results]]>
-            </line>
-            <line>
-              <![CDATA[------  Navigation Previous is Verified]]>
-            </line>
-            <line>
-              <![CDATA[Expected : Docket Actual : Docket]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : PNR # Expected is : PNR #]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Contact Name Expected is : Contact Name]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets TablesearchPlaceHolder is : Contact Name Expected is : Contact Name]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Created On Expected is : Created On]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Airline Expected is : Airline]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Agent Expected is : Agent]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Sales Price ($) Expected is : Sales Price ($)]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Cost Price ($) Expected is : Cost Price ($)]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Commision Price($) Expected is : Commision Price($)]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Payment Status Expected is : Payment Status]]>
-            </line>
-            <line>
-              <![CDATA[------  Next button is not enabled by default showing Last page results]]>
-            </line>
-            <line>
-              <![CDATA[------  Navigation Next is Verified]]>
-            </line>
-            <line>
-              <![CDATA[------  Previous button is not enabled by default showing 1st page results]]>
-            </line>
-            <line>
-              <![CDATA[------  Navigation Previous is Verified]]>
-            </line>
-            <line>
-              <![CDATA[Expected : Docket Actual : Docket]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : PNR # Expected is : PNR #]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Contact Name Expected is : Contact Name]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets TablesearchPlaceHolder is : Contact Name Expected is : Contact Name]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Created On Expected is : Created On]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Airline Expected is : Airline]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Agent Expected is : Agent]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Sales Price ($) Expected is : Sales Price ($)]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Cost Price ($) Expected is : Cost Price ($)]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Commision Price($) Expected is : Commision Price($)]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Payment Status Expected is : Payment Status]]>
-            </line>
-            <line>
-              <![CDATA[------  Next button is not enabled by default showing Last page results]]>
-            </line>
-            <line>
-              <![CDATA[------  Navigation Next is Verified]]>
-            </line>
-            <line>
-              <![CDATA[------  Previous button is not enabled by default showing 1st page results]]>
-            </line>
-            <line>
-              <![CDATA[------  Navigation Previous is Verified]]>
-            </line>
-            <line>
-              <![CDATA[Expected : Docket Actual : Docket]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : PNR # Expected is : PNR #]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Contact Name Expected is : Contact Name]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets TablesearchPlaceHolder is : Contact Name Expected is : Contact Name]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Created On Expected is : Created On]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Airline Expected is : Airline]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Agent Expected is : Agent]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Sales Price ($) Expected is : Sales Price ($)]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Cost Price ($) Expected is : Cost Price ($)]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Commision Price($) Expected is : Commision Price($)]]>
-            </line>
-            <line>
-              <![CDATA[--  Dockets Table Header1 is : Payment Status Expected is : Payment Status]]>
-            </line>
-            <line>
-              <![CDATA[------  Next button is not enabled by default showing Last page results]]>
-            </line>
-            <line>
-              <![CDATA[------  Navigation Next is Verified]]>
-            </line>
-            <line>
-              <![CDATA[------  Previous button is not enabled by default showing 1st page results]]>
-            </line>
-            <line>
-              <![CDATA[------  Navigation Previous is Verified]]>
-            </line>
-            <line>
-              <![CDATA[Expected : Payments Done Actual : Payments Done]]>
-            </line>
-            <line>
-              <![CDATA[--  Payment Table Header1 is : PNR Expected is : PNR]]>
-            </line>
-            <line>
-              <![CDATA[--  Payment Table Header1 is : Contact Name Expected is : Contact Name]]>
-            </line>
-            <line>
-              <![CDATA[--  Payment Table Header1 is : Payment Method Expected is : Payment Method]]>
-            </line>
-            <line>
-              <![CDATA[--  Payment Table Header1 is : Payment Status Expected is : Payment Status]]>
-            </line>
-            <line>
-              <![CDATA[--  Payment Table Header1 is : Pay Amount Expected is : Pay Amount]]>
-            </line>
-            <line>
-              <![CDATA[------  Next button is not enabled by default showing Last page results]]>
-            </line>
-            <line>
-              <![CDATA[------  Navigation Next is Verified]]>
-            </line>
-            <line>
-              <![CDATA[------  Previous button is not enabled by default showing 1st page results]]>
-            </line>
-            <line>
-              <![CDATA[------  Navigation Previous is Verified]]>
-            </line>
-            <line>
-              <![CDATA[Expected : Pending Payments Actual : Pending Payments]]>
-            </line>
-            <line>
-              <![CDATA[--  Payment Table Header1 is : PNR Expected is : PNR]]>
-            </line>
-            <line>
-              <![CDATA[--  Payment Table Header1 is : Contact Name Expected is : Contact Name]]>
-            </line>
-            <line>
-              <![CDATA[--  Payment Table Header1 is : Payment Method Expected is : Payment Method]]>
-            </line>
-            <line>
-              <![CDATA[--  Payment Table Header1 is : Payment Status Expected is : Payment Status]]>
-            </line>
-            <line>
-              <![CDATA[--  Payment Table Header1 is : Pay Amount Expected is : Pay Amount]]>
-            </line>
-            <line>
-              <![CDATA[------  Next button is not enabled by default showing Last page results]]>
-            </line>
-            <line>
-              <![CDATA[------  Navigation Next is Verified]]>
-            </line>
-            <line>
-              <![CDATA[------  Previous button is not enabled by default showing 1st page results]]>
-            </line>
-            <line>
-              <![CDATA[------  Navigation Previous is Verified]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- cardblockswithSelectionsValidation -->
-      </class> <!-- Demo.TAMSProject.TAMSDashboard -->
+        </test-method> <!-- TAMSDairyDatepicking -->
+      </class> <!-- Demo.TAMSProject.TAMSDairy -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
