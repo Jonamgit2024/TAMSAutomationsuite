@@ -6,14 +6,29 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Contacts"/>
+		<item key="selection" value="sftasrt"/>
 		<list key="findhistory">
+			<item value="sftasrt"/>
+			<item value="soft"/>
+			<item value="softassertion"/>
+			<item value="action"/>
+			<item value="webDriverwait"/>
+			<item value="implicit"/>
+			<item value="previous"/>
+			<item value="previousday"/>
+			<item value="datenumber"/>
+			<item value="System.out.println"/>
+			<item value="S"/>
 			<item value="Contacts"/>
 			<item value="softAssert"/>
 			<item value="Dockets"/>
 			<item value="DocketFlextableheader"/>
 		</list>
 		<list key="replacehistory">
+			<item value="next"/>
+			<item value="nextday"/>
+			<item value="datenmbr"/>
+			<item value="Reporter.log"/>
 			<item value="Passengers"/>
 			<item value="Passenger"/>
 			<item value="Contacts"/>
@@ -21,8 +36,8 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="179"/>
-		<item key="DIALOG_Y_ORIGIN" value="245"/>
+		<item key="DIALOG_X_ORIGIN" value="133"/>
+		<item key="DIALOG_Y_ORIGIN" value="248"/>
 		<item key="DIALOG_WIDTH" value="511"/>
 		<item key="DIALOG_HEIGHT" value="523"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>

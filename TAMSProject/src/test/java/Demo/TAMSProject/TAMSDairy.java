@@ -14,6 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -181,7 +182,7 @@ public class TAMSDairy extends Basemethods {
 		wait.until(ExpectedConditions.visibilityOf(tdpg.datepickers()));
 		String monthname=null;
 		String monthnamefull=null;
-		monthname = prop.getProperty("Monthpick");
+		monthname = monthpickfirst3char();
 		monthnamefull=prop.getProperty("MonthpickFullname");
 		Select slct1=new Select(tdpg.datepickermonthselect());
 		slct1.selectByVisibleText(monthname);
@@ -217,6 +218,42 @@ public class TAMSDairy extends Basemethods {
 		Thread.sleep(3000);
 		Assert.assertEquals(tdpg.dateheader().getText(),getmonthdata());
 		Reporter.log("The Header of the Calender is verifed with current month --- current month is :"+getmonthdata()+" Header of the calender is :"+tdpg.dateheader().getText());
+	}
+	@SuppressWarnings("deprecation")
+	@Test(priority =6)
+	public void TAMSDairyEventContainers() throws Exception {
+		Reporter.log( "TAMSDairy Event Containers Validation", true );
+		Properties prop = new Properties();
+		FileInputStream fis = new FileInputStream("data.properties");
+		prop.load(fis);
+		TAMSDairypage tdpg = new TAMSDairypage(driver);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		tdpg.dairyanchorbutton().click();
+		Assert.assertEquals(driver.getCurrentUrl(),prop.getProperty("TAMSDairyURL"));
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.visibilityOfAllElements(tdpg.daynumbers()));
+		Actions act =new Actions(driver);
+		int noofevents=tdpg.eventcontainers().size();
+		Reporter.log("Number of Events in Current month is :"+noofevents);
+		if(noofevents>1) {
+			act.moveToElement(tdpg.eventcontainers().get(0)).build().perform();
+			act.moveToElement(tdpg.eventcontainers().get(0)).click(tdpg.eventcontainers().get(0)).build().perform();
+			Reporter.log("Clicked on the Event");
+			Assert.assertTrue(driver.getCurrentUrl().contains("docket/edit_docket/"));
+			Reporter.log("Event Clicking Reidrected the URL Succesfully to "+driver.getCurrentUrl());
+			driver.navigate().back();
+			Reporter.log("Succesfully came back to the current URL"+driver.getCurrentUrl());
+			Assert.assertEquals(driver.getCurrentUrl(),prop.getProperty("TAMSDairyURL"));
+		}
+		//checking random events as well with gap of 7
+		for(int i=2;i<noofevents;i=i+5) {
+			wait.until(ExpectedConditions.visibilityOfAllElements(tdpg.daynumbers()));
+			act.moveToElement(tdpg.eventcontainers().get(i)).build().perform();
+			Assert.assertTrue(tdpg.gridevents().get(i).getAttribute("href").contains("docket/edit_docket/"));
+			int a =i+1;
+			Reporter.log("Validating the "+a+" Term : Its href Contains docket/edit_docket/ ");
+		}
+		
 	}
 	
 	public static void monthviewvalidation() throws Exception {
@@ -276,7 +313,6 @@ public class TAMSDairy extends Basemethods {
 		// Now format the date
 		String monthnumber= month.format(date1);
 		String monthname=null;
-		Reporter.log("Month:"+monthnumber);
 		switch(monthnumber){
 		case "1": monthname ="January";break;
 		case "2": monthname ="February";break;
@@ -292,16 +328,12 @@ public class TAMSDairy extends Basemethods {
 		case "12": monthname ="December";break;
 		default:Reporter.log("-------------Failure with Month Selection------------------");	
 		}
-		Reporter.log("Month:"+monthname);
 		monthnamefull=monthname;
 		// Year
 		int yearnum= Year.now().getValue();
-		Reporter.log("This Year is :"+yearnum);
 		String year= String.valueOf(yearnum);
 		yearnumber=year;
-		
 		String monthdisplay=monthname+" "+year;
-		Reporter.log(monthdisplay);
 		return monthdisplay;
 	}
 	public static String getdatedata() {
@@ -414,5 +446,17 @@ public class TAMSDairy extends Basemethods {
 			default:Reporter.log("Unable to Know the Month");
 		}
 		return nextmonth;
+	}
+	public static String monthpickfirst3char() throws Exception {
+		Properties prop = new Properties();
+		FileInputStream fis = new FileInputStream("data.properties");
+		prop.load(fis);
+		String monthpick="";
+		String monthpickfullname=prop.getProperty("MonthpickFullname");
+        for(int i =0;i<3;i++) {
+        	monthpick=monthpick+monthpickfullname.charAt(i);
+        }
+        Reporter.log(monthpickfullname+" Is Shortened to :"+monthpick);
+		return monthpick;
 	}
 }

@@ -105,4 +105,21 @@ public class TAMSDairypage {
 		return dateselections;
 	}
 	
+	@FindBy(xpath = "//span[@class='fc-day-number']")
+	private List <WebElement> daynumbers;
+	public List<WebElement>  daynumbers() {
+		return daynumbers;
+	}
+	
+	@FindBy(xpath = "//td[@class='fc-event-container']")
+	private List <WebElement> eventcontainers;
+	public List<WebElement>  eventcontainers() {
+		return eventcontainers;
+	}
+	
+	@FindBy(xpath = "//td[@class='fc-event-container']//a")
+	private List <WebElement> gridevents;
+	public List<WebElement>  gridevents() {
+		return gridevents;
+	}
 }

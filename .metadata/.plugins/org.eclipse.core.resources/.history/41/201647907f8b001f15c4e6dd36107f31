@@ -1,0 +1,17 @@
+package Demo.TAMSProject;
+
+
+public class Tr1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        System.out.println("Try programiz.pro");
+        String snt="abcdefgh";
+        String s=null;
+        for(int i =0;i<3;i++) {
+        	s=s+snt.charAt(i);
+        }
+        System.out.println(s);
+	}
+
+}

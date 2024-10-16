@@ -6,6 +6,10 @@
       <class name="Demo.TAMSProject.TAMSDairy">
         <methods>
           <include name="TAMSDairyOverview"/>
+          <include name="TAMSDairyDatepicking"/>
+          <include name="TAMSDairyEventContainers"/>
+          <include name="zoomout75"/>
+          <include name="login"/>
         </methods>
       </class> <!-- Demo.TAMSProject.TAMSDairy -->
     </classes>

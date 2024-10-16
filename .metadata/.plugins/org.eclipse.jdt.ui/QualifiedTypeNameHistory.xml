@@ -7,4 +7,12 @@
     <fullyQualifiedTypeName name="java.time.Duration"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.testng.Reporter"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.time.Year"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="org.apache.commons.codec.binary.StringUtils"/>
+    <fullyQualifiedTypeName name="org.apache.commons.exec.util.StringUtils"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
 </qualifiedTypeNameHistroy>
